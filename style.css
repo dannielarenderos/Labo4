@@ -1,40 +1,54 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 8px;
+
+}
+
+
+.wrapper
+{
+  margin: 0 auto;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 
 header {
 border-bottom: solid 5px #f56a6a;
-
+padding: 4px 12px;
 }
 
 
 .container {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
+    border-botton: solid 5px #f56a6a;
+
   }
 
   nav ul li {
     display: inline;
-padding: 1em;
-list-style: none;
+    list-style: none;
+    margin: 0;
 
   }
 
   a {
       text-decoration: none;
+      color: gray;
   }
 
 
-  #le {
+  #le {border-bottom: solid 5px #f56a6a;
+
     border: solid  #f36262;
 padding: 0.5em 2em;
 font-size: 1em;
 color: #f36262;
 border-radius: 6px;
   }
+
   #le:hover {
 border: solid  #eeb1b1;
 padding: 0.5em 2em;
@@ -42,20 +56,56 @@ font-size: 1.2em;
 border-radius: 6px;
 color: #eeb1b1;
 
-
   }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
+    font-family: sans-serif;
+padding-bottom: 12px;
 }
 
 article div p {
     color: gray;
-    text-align: justify;
+    text-align: justify #f56a6a;
 }
 
+div div i {
+
+color:  #f56a6a;
+font-size: 3em;
+}
 .container2 {
   display: grid;
 grid-template-columns: 50% 50%;
+padding-bottom: 50px;
+border-bottom: solid 2px #7F888F3F;
+}
 
+.final {
+  display: grid;
+grid-template-columns: 50% 50%;
+padding: 10px;
+}
+
+.izqsu
+{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.erat {
+  padding: 5px;
+  border-bottom:solid  #f36262;
+  width: 15em;
+  font-family: sans-serif;
+
+}
+
+.container2 div p {
+  padding-bottom: 5px;
+
+}
+
+header p {
+  padding-top: 12px;
 }
